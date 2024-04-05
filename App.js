@@ -71,7 +71,7 @@ const Profile = ({navigation}) => {return (
 export default function App() {return (
     <NavigationContainer>
     <Stack.Navigator>
-        <Stack.Screen name="Login" component={Login}/>
+        <Stack.Screen name="Loginn" component={Login}/>
         <Stack.Screen name="Registrar" component={Registrar}/>
         <Stack.Screen name="Home" component={Tabconst}/>
         <Stack.Screen name="Profile" component={Profile} />     
